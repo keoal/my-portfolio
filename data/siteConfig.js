@@ -82,7 +82,7 @@ module.exports = {
     },
     {
       //image: "/images/hammond.png",
-      description: "Hammomnd Solicitors",
+      description: "Hammond Solicitors",
       url: "https://www.hammond.ie"
     },
     {
