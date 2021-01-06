@@ -76,17 +76,17 @@ module.exports = {
   ],
  portifolio: [
     {
-      image: "/images/investment-hub.png",
+      //image: "/images/investment-hub.png",
       description: "Investment Hub",
       url: "#"
     },
     {
-      image: "/images/hammond.png",
+      //image: "/images/hammond.png",
       description: "Hammond Solicitors",
       url: "https://www.hammond.ie"
     },
     {
-      image: "/images/greenes-florists.png",
+      //image: "/images/greenes-florists.png",
       description: "Greenes Florists",
       url: "https://www.greenesflorists.ie"
     },
