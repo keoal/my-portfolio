@@ -1,100 +1,98 @@
 module.exports = {
-  siteTitle: 'Hi! I\'m Francisco!',
-  siteDescription: `Create your online curriculum in just a few minutes with this starter`,
+  siteTitle: 'Alan Keogh - Web Developer',
+  siteDescription: `Online curriculum vitae`,
   keyWords: ['gatsbyjs', 'react', 'curriculum'],
-  authorName: 'Francisco Santos',
-  twitterUsername: '_franciscodf',
-  githubUsername: 'santosfrancisco',
-  authorAvatar: '/images/avatar.jpeg',
-  authorDescription: `Developer, passionate about what I do. Always interested in how the sites were made, I started to study HTML by hobby. <br />
-    In 2012 I started working as a support technician and I approached the developers.
-    In 2015, I started to study C # and started to contribute with the team giving maintenance in an application in C # and .NET. <br />
-    I currently work as a frontend developer and mainly work with <strong>Javascript, NodeJS e React.</strong>`,
-  skills: [
-    {
-      name: 'HTML',
-      level: 70
-    },
-    {
-      name: 'CSS',
-      level: 60
-    },
-    {
-      name: 'Javascript',
-      level: 50
-    },
-    {
-      name: 'NodeJs',
-      level: 40
-    },
-    {
-      name: 'React',
-      level: 60
-    },
-    {
-      name: 'Git',
-      level: 70
-    },
+  authorName: 'Alan Keogh',
+ //twitterUsername: 'Keoal',
+ githubUsername: 'Keoal',
+ authorAvatar: '/images/avatar.jpeg',
+ authorDescription: `Web Developer with a passion for Drupal and front end technologies with ten years of experience, other interests include React & Gatsby `,
+ skills: [
+  {
+    name: 'HTML',
+    level: 90
+  },
+  {
+    name: 'CSS',
+    level: 90
+  },
+  {
+    name: 'Javascript',
+    level: 60
+  },
+  {
+    name: 'Drupal 7',
+    level: 90
+  },
+  {
+    name: 'Drupal 8',
+    level: 70
+  },
+  {
+    name: 'React',
+    level: 40
+  },
+  {
+    name: 'Git',
+    level: 70
+  },
+  {
+    name: 'PHP',
+    level: 50
+  },
     /* more skills here */
   ],
   jobs: [
     /* more jobs here */
     {
-      company: "Gympass",
+      company: "Novartis",
       begin: {
-        month: 'sep',
+        month: 'Oct',
         year: '2019'
       },
-      duration: null,
-      occupation: "Frontend developer",
-      description: "I am part of the Corporate team, responsible for the development and maintenance of the employee management platform, giving more and more autonomy to partner companies."
-  
+      duration: '1 yr',
+      occupation: "Technical Design Expert",
+      description: "I was part of the Platform team, involved in the development and planning of a core distribution for Drupal sites and also the analysis & planning for transition of 250 sites from Epi Server to Drupal. I also Initiated the Design Authority for Drupal to ensure consistency across products in the future. I was also responsible for enabling onboarding & access for development teams and quality assurance across the Drupal products.",   
     },  {
-      company: "Lendico",
+      company: "Irish Life",
       begin: {
-        month: 'apr',
-        year: '2018'
+        month: 'Sep',
+        year: '2013'
       },
-      duration: null,
-      occupation: "Frontend developer",
-      description: "I integrate the Frontend team responsible for developing and maintaining the online lending platform."
+      duration: '6 yr',
+      occupation: "Digital Specialist/Web Developer",
+      description: "As part of the Digital Team my role was as a full stack developer on the Drupal framework. I was responsible for the development and design of the Drupal sites along with other features such as online quote calculators, google map features and custom Drupal modules. I was also responsible for the maintenance of the Drupal sites and their databases.",
   
     }, {
-      company: "Anapro",
+      company: "Canada Life",
       begin: {
-        month: 'dec',
-        year: '2016'
+        month: 'May',
+        year: '2008'
       },
-      duration: '1 yr e 5 mos',
-      occupation: "Fullstack developer",
-      description: "Development and maintenance, corrective and preventive, of web applications for the real estate market."
-    }, {
-      company: "Anapro",
-      begin: {
-        month: 'set',
-        year: '2012'
-      },
-      duration: '4 yrs e 3 mos',
-      occupation: "Support Technician",
-      description: "Responsible for the implementation and parameterization of the system, training and customer support. Acting also in person in real estate launches guaranteeing the success and good use of the tool."
-  
-    },
+      duration: '5 yr',
+      occupation: "eBusiness Specialist/Web Developer",
+      description: "Responsible for the design, development, maintainance and on-page SEO for the canadalife.ie website and various micro-sites, these sites were developed using HTML, CSS, Javascript, jQuery, & PHP. Front-end development & user interface for new group pension scheme sites. Design, development and implementation of content management system for sales agent personal websites. Management of content for the Canada Life eCentre (broker portal) using Stellent content server. Canada Life eCentre: Specifying changes needed for new sections of the site and building new pages in Websphere and carrying out testing.",
+    }, 
   ],
-  portifolio: [
+ portifolio: [
     {
-      image: "/images/gatsby-starter-cv.png",
-      description: "Gatsby starter CV template",
-      url: "https://www.gatsbyjs.org/starters/santosfrancisco/gatsby-starter-cv/"
+      image: "/images/investment-hub.png",
+      description: "Investment Hub",
+      url: "#"
     },
     {
-      image: "/images/awesome-grid.png",
-      description: "Responsive grid for ReactJS",
-      url: "https://github.com/santosfrancisco/react-awesome-styled-grid"
+      image: "/images/hammond.png",
+      description: "Hammond Solicitors",
+      url: "https://www.hammond.ie"
     },
-    /* more portifolio items here */
+    {
+      image: "/images/greenes-florists.png",
+      description: "Greenes Florists",
+      url: "https://www.greenesflorists.ie"
+    },
+    /* more portfolio items here */
   ],
   social: {
-    twitter: "https://twitter.com/_franciscodf",
     linkedin: "https://www.linkedin.com/in/santos-francisco",
     github: "https://github.com/santosfrancisco",
     email: "yoshi.df@gmail.com"
@@ -106,7 +104,7 @@ module.exports = {
   background_color: '#ffffff',
   theme_color: '#25303B',
   fontColor: "#000000cc",
-  enableDarkmode: true, // If true, enables dark mode switch
+  enableDarkmode: false, // If true, enables dark mode switch
   display: 'minimal-ui',
   icon: 'src/assets/gatsby-icon.png',
   headerLinks: [
@@ -115,8 +113,8 @@ module.exports = {
       url: '/',
     },
     {
-      label: 'Portifolio',
-      url: '/portifolio',
+      label: 'Portfolio',
+      url: '/portfolio',
     }
   ]
 }
