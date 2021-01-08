@@ -12,16 +12,17 @@ const Layout = loadable(() => import('../components/layout'))
 
 const Image = styled.img`
   max-height: 220px;
-  max-width: 220px;
+  max-width: 180px;
   object-fit: cover;
   object-position: center center;
-  border-radius: 10px;
-  box-shadow: 24px 47px 79px -21px rgba(0,0,0,0.51);
+  border-radius: 3px;
+  box-shadow: 5px 5px 13px 0px rgba(0,0,0,0.51);
 `
 
 const JobCard = styled.a`
   text-decoration: none;
   color: inherit;
+  text-align: center;
 
   ${({ href }) => href && css`
     &:hover ${Image}{
