@@ -10,11 +10,11 @@ module.exports = {
  skills: [
   {
     name: 'HTML',
-    level: 90
+    level: 95
   },
   {
     name: 'CSS',
-    level: 90
+    level: 95
   },
   {
     name: 'Javascript',
@@ -75,50 +75,136 @@ module.exports = {
     }, 
   ],
  portifolio: [
+    
+  {
+    image: "/images/home-page-responsive.jpg",
+    description: "Home Page Responsive",
+    url: "/images/home-page-responsive.jpg"
+  },
     {
-      image: "/images/investment-hub.jpg",
-      description: "Investment Hub",
-      url: "#"
-    },
-    {
-      image: "/images/hammond.png",
+      image: "/images/hammond.jpg",
       description: "Hammond Solicitors",
       url: "https://www.hammond.ie"
     },
     {
       image: "/images/home-page.jpg",
       description: "Home Page",
-      url: "#"
+      url: "/images/home-page.jpg"
     },
     {
       image: "/images/investments-funds.jpg",
       description: "Investments Page",
-      url: "#"
+      url: "/images/investments-funds.jpg"
     },
     {
       image: "/images/new-to-investing.jpg",
       description: "New to Investing",
-      url: "#"
+      url: "/images/new-to-investing.jpg"
     },
     {
       image: "/images/fund-centre.jpg",
       description: "Fund Centre",
-      url: "#"
+      url: "/images/fund-centre.jpg"
     },
     {
       image: "/images/campaign-page.jpg",
       description: "Campaign Page",
-      url: "#"
+      url: "/images/campaign-page.jpg"
+    },
+    {
+      image: "/images/home-page-2017.jpg",
+      description: "Home Page 2017",
+      url: "/images/home-page-2017.jpg"
+    },
+    {
+      image: "/images/life-quotes.jpg",
+      description: "Quote Calculator",
+      url: "/images/life-quotes.jpg"
+    },
+    {
+      image: "/images/mailpigeon.jpg",
+      description: "Mail Pigeon",
+      url: "/images/mailpigeon.jpg"
     },
     {
       image: "/images/home-page-2016.jpg",
       description: "Home Page 2016",
-      url: "#"
+      url: "/images/home-page-2016.jpg"
     },
     {
-      image: "/images/greenes-florists.png",
+      image: "/images/pensions-2014.jpg",
+      description: "Pensions Page",
+      url: "/images/pensions-2014.jpg"
+    },
+    {
+      image: "/images/mobile-home-2014.jpg",
+      description: "Mobile Home Page",
+      url: "/images/mobile-home-2014.jpg"
+    },
+    {
+      image: "/images/greenes-florists.jpg",
       description: "Greenes Florists",
       url: "https://www.greenesflorists.ie"
+    },
+    {
+      image: "/images/cartridge-expert.jpg",
+      description: "Cartridge Expert",
+      url: "/images/cartridge-expert.jpg"
+    },
+    {
+      image: "/images/srfc-megastore.jpg",
+      description: "SRFC Megastore",
+      url: "/images/srfc-megastore.jpg"
+    },
+    {
+      image: "/images/home-page-2012.jpg",
+      description: "Home Page 2012",
+      url: "/images/home-page-2012.jpg"
+    },
+    {
+      image: "/images/product-landing-page-2012.jpg",
+      description: "Product Landing Page",
+      url: "/images/product-landing-page-2012.jpg"
+    },
+    {
+      image: "/images/product-page-2012.jpg",
+      description: "Product Landing Page",
+      url: "/images/product-page-2012.jpg"
+    },
+    {
+      image: "/images/home-page-2010.jpg",
+      description: "Home Page 2010",
+      url: "/images/home-page-2010.jpg"
+    },
+    {
+      image: "/images/cli-protection-claims.jpg",
+      description: "Protection Claims",
+      url: "/images/cli-protection-claims.jpg"
+    },
+    {
+      image: "/images/cli-product-page.jpg",
+      description: "Product Page",
+      url: "/images/cli-product-page.jpg"
+    },
+    {
+      image: "/images/cli-home-page-2008.jpg",
+      description: "Home Page 2008",
+      url: "/images/cli-home-page-2008.jpg"
+    },
+    {
+      image: "/images/security-brochure-email.jpg",
+      description: "Brochure Email",
+      url: "/images/security-brochure-email.jpg"
+    },
+    {
+      image: "/images/managed-services-email.jpg",
+      description: "HTML Email",
+      url: "/images/managed-services-email.jpg"
+    },
+    {
+      image: "/images/exhibition-stand.jpg",
+      description: "Exhibition Stand",
+      url: "/images/exhibition-stand.jpg"
     },
     /* more portfolio items here */
   ],
@@ -132,7 +218,7 @@ module.exports = {
   //pathPrefix: '/gatsby-starter-cv', // Note: it must *not* have a trailing slash.
   siteCover: '/images/cover.jpeg',
   googleAnalyticsId: 'UA-000000000-1',
-  background_color: '#ffffff',
+  background_color: '#eaeaea',
   theme_color: '#25303B',
   fontColor: "#000000cc",
   enableDarkmode: false, // If true, enables dark mode switch
