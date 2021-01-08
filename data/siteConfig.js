@@ -76,7 +76,7 @@ module.exports = {
   ],
  portifolio: [
     {
-      image: "/images/investment-hub.png",
+      image: "/images/investment-hub.jpg",
       description: "Investment Hub",
       url: "#"
     },
@@ -86,6 +86,36 @@ module.exports = {
       url: "https://www.hammond.ie"
     },
     {
+      image: "/images/home-page.jpg",
+      description: "Home Page",
+      url: "#"
+    },
+    {
+      image: "/images/investments-funds.jpg",
+      description: "Investments Page",
+      url: "#"
+    },
+    {
+      image: "/images/new-to-investing.jpg",
+      description: "New to Investing",
+      url: "#"
+    },
+    {
+      image: "/images/fund-centre.jpg",
+      description: "Fund Centre",
+      url: "#"
+    },
+    {
+      image: "/images/campaign-page.jpg",
+      description: "Campaign Page",
+      url: "#"
+    },
+    {
+      image: "/images/home-page-2016.jpg",
+      description: "Home Page 2016",
+      url: "#"
+    },
+    {
       image: "/images/greenes-florists.png",
       description: "Greenes Florists",
       url: "https://www.greenesflorists.ie"
@@ -93,12 +123,13 @@ module.exports = {
     /* more portfolio items here */
   ],
   social: {
-    linkedin: "https://www.linkedin.com/in/santos-francisco",
-    github: "https://github.com/santosfrancisco",
-    email: "yoshi.df@gmail.com"
+    linkedin: "https://www.linkedin.com/in/alan-keogh-1931a94/",
+    github: "https://github.com/keoal",
+    codepen: "https://codepen.io/keoal",
+    email: "alankeogh@gmail.com"
   },
-  siteUrl: 'https://santosfrancisco.github.io/gatsbystarter-cv',
-  pathPrefix: '/gatsby-starter-cv', // Note: it must *not* have a trailing slash.
+  //siteUrl: 'https://santosfrancisco.github.io/gatsbystarter-cv',
+  //pathPrefix: '/gatsby-starter-cv', // Note: it must *not* have a trailing slash.
   siteCover: '/images/cover.jpeg',
   googleAnalyticsId: 'UA-000000000-1',
   background_color: '#ffffff',
