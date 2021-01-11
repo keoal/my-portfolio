@@ -18,7 +18,7 @@ module.exports = {
   },
   {
     name: 'Javascript',
-    level: 60
+    level: 70
   },
   {
     name: 'Drupal 7',
