@@ -1,12 +1,12 @@
 module.exports = {
   siteTitle: 'Alan Keogh - Web Developer',
-  siteDescription: `Online curriculum vitae`,
+  siteDescription: `Online Portfolio`,
   keyWords: ['gatsbyjs', 'react', 'curriculum'],
   authorName: 'Alan Keogh',
  //twitterUsername: 'Keoal',
  githubUsername: 'Keoal',
  authorAvatar: '/images/avatar.jpeg',
- authorDescription: `Web Developer with a passion for Drupal and front end technologies with ten years of experience, other interests include React & Gatsby `,
+ authorDescription: `I am a Web Developer with an interest in Drupal and other open source technologies along with front end technologies. I have over ten years of experience of web development with both front end and back end technologies, i am always interested in learning about new code and technologies. My recent interests include React & Gatsby. `,
  skills: [
   {
     name: 'HTML',
@@ -200,12 +200,7 @@ module.exports = {
       image: "/images/managed-services-email.jpg",
       description: "HTML Email",
       url: "/images/managed-services-email.jpg"
-    },
-    {
-      image: "/images/exhibition-stand.jpg",
-      description: "Exhibition Stand",
-      url: "/images/exhibition-stand.jpg"
-    },
+    }
     /* more portfolio items here */
   ],
   social: {
