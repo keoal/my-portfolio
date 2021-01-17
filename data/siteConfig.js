@@ -6,7 +6,7 @@ module.exports = {
  //twitterUsername: 'Keoal',
  githubUsername: 'Keoal',
  authorAvatar: '/images/avatar.jpeg',
- authorDescription: `I am a Web Developer with an interest in Drupal and other open source technologies along with front end technologies. I have over ten years of experience of web development with both front end and back end technologies, i am always interested in learning about new code and technologies. My recent interests include React & Gatsby. `,
+ authorDescription: `I am a Web Developer with an interest in Drupal and other open source technologies along with front end technologies. With over ten years of experience of web development with both front end and back end technologies, I am also interested in learning about new code and technologies. My most recent interests include React & Gatsby. `,
  skills: [
   {
     name: 'HTML',
